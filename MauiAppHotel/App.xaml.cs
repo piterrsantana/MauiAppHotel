@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using MauiAppHotel.Views;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MauiAppHotel
 {
@@ -8,7 +9,8 @@ namespace MauiAppHotel
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new Views.ContratacaoHospedagem());
+            Routing.RegisterRoute(nameof(Sobre), typeof(Sobre));
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
