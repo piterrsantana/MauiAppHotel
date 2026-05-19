@@ -1,6 +1,5 @@
 ﻿using MauiAppHotel.Models;
 using MauiAppHotel.Views;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace MauiAppHotel
 {

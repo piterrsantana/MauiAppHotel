@@ -8,7 +8,7 @@
 
     <VerticalStackLayout Padding="30"
                          Spacing="15"
-                         BackgroundColor="#F5F5DC">
+                         BackgroundColor="AntiqueWhite">
 
         <Label Text="Sobre Nós"
                FontFamily="KalamRegular"
@@ -46,6 +46,14 @@ Viajar pode ser nosso momento relax ou stress. Depende de onde você faz sua res
             FontSize="10"
             HorizontalTextAlignment="Center"
             Text="Desenvolvido por Peterson F. Sant'Ana. &#10;15 de Maio de 2026.&#10;Orientação: Etec - Centro de Paula Souza"/>
-          
+
+        <!-- No seu Sobre.xaml, o botão deve estar exatamente assim: -->
+        <Button Text="Voltar"
+            TextColor="Green"
+            HorizontalOptions="Center"
+            BackgroundColor="LightGrey"
+            Clicked="Button_Clicked"/>
+        <!-- Verifique este nome -->
+
     </VerticalStackLayout>
 </ContentPage>
