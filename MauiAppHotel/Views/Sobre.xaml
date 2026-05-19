@@ -32,9 +32,9 @@
             HorizontalTextAlignment="Start"
             TextColor="#3E2723"
             LineHeight="2">
-            <Label.Text>Esta aplicação foi desenvolvida para ajudar no gerenciamentode tarega diárias 
-                com foco em praticidade e comodidade. Viajar pode ser nosso momento relax ou stress. 
-                Depende de ondevocê faz sua reserva. Então, vem reserva seu sucego com a gente."
+            <Label.Text>
+                Esta aplicação foi desenvolvida para ajudar no gerenciamentode tarega diárias com foco em praticidade e comodidade. 
+Viajar pode ser nosso momento relax ou stress. Depende de ondevocê faz sua reserva. Então, vem reserva seu sucego com a gente."
             </Label.Text>
         </Label>
 
