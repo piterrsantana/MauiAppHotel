@@ -29,18 +29,19 @@
                HorizontalOptions="Center"/>
 
         <Label
+            Margin="0, 30, 0, 0"
             HorizontalTextAlignment="Start"
             TextColor="#3E2723"
             LineHeight="2">
             <Label.Text>
-                Esta aplicação foi desenvolvida para ajudar no gerenciamentode tarega diárias com foco em praticidade e comodidade. 
-Viajar pode ser nosso momento relax ou stress. Depende de ondevocê faz sua reserva. Então, vem reserva seu sucego com a gente."
+                Esta aplicação foi desenvolvida para ajudar no gerenciamento de tarefas diárias com foco em praticidade e comodidade para viagens. 
+Viajar pode ser nosso momento relax ou stress. Depende de onde você faz sua reserva. Então, vem reservar seu sossego com a gente."
             </Label.Text>
         </Label>
-
+        
         <!--Rodapé-->
         <Label 
-            Margin="0, 50, 0, 0"
+            Margin="0, 30, 0, 0"
             FontFamily="KalamBold"
             FontSize="10"
             HorizontalTextAlignment="Center"
