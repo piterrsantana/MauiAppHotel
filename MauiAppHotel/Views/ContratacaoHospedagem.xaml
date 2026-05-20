@@ -10,6 +10,7 @@
                          Padding="10"
                          BackgroundColor="LightGrey">
         
+        <!--Rótulo para o cabeçalho da Página inicial-->
         <Label Text="Cálculo da Diária"
                FontFamily="KalamRegular"
                FontSize="50"
@@ -80,21 +81,24 @@
                         
                     </VerticalStackLayout>
                 </Frame>
-                
+
+                <!--Estilização do Botão que leva até a página dos resultados da escolha do usuário-->
                 <Button Text="Avançar" Clicked="Button_Clicked_2"
                         WidthRequest="100"
                         FontFamily="KalamRegular"
                         BackgroundColor="LightGrey"
                         TextColor="Green"/>
 
-                <Label>
+                <Label> <!--Espaço entre os botões-->
                 </Label>
+
+                <!--Estilização do Botão que leva até a página "Sobre"-->
                 <Button Text="Sobre"
                         Clicked="Button_Clicked"
                         WidthRequest="100"
                         FontFamily="KalamRegular"
                         BackgroundColor="LightGrey"
-                        TextColor="Green"/>
+                        TextColor="Green"/> 
 
             </VerticalStackLayout>
         </Frame>

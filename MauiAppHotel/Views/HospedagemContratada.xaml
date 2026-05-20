@@ -9,13 +9,15 @@
     <VerticalStackLayout VerticalOptions="CenterAndExpand">
 
         <!-- Busca dinamicamente a propriedade Descricao de dentro de QuartoSelecionado -->
+        <!--Ao encontrar {Binding...}, o app entra no objeto, acessa o quarto escolhido e exibe o texto correspondente ex: "Suíte Super Luxo"-->
         <Label Text="{Binding QuartoSelecionado.Descricao}"
                TextColor="Teal"
                FontFamily="KalamRegular"
                FontSize="40"
                HorizontalTextAlignment="Center"/>
 
-        <!-- Bloco de Hóspedes -->
+        <!-- Bloco de Hóspedes. -->
+        <!--Ao encontrar {Binding QuantidadeAdultos} e {Binding QuantidadeCriancas}, ele preenche os labels correspondentes com os números escolhidos-->
         <Frame Margin="10" BackgroundColor="LightGrey">
             <Grid ColumnDefinitions="*, *">
                 <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Start">
@@ -58,6 +60,7 @@
         <Frame Margin="10" BackgroundColor="LightGrey">
             <HorizontalStackLayout HorizontalOptions="Center">
                 <Label Text="Valor Total: " FontAttributes="Bold"/>
+                
                 <!-- Exibe o resultado final da conta formatado em Moeda (R$) -->
                 <Label Text="{Binding ValorTotal, StringFormat='R$ {0:F2}'}" 
                        TextColor="Teal" 
